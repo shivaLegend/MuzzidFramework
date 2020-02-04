@@ -52,6 +52,8 @@
 		D60C88CC23E96B0400D3CDD9 /* nose_algorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = D60C88C223E96B0400D3CDD9 /* nose_algorithm.c */; };
 		D60C88CD23E96B0400D3CDD9 /* nose_algorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = D60C88C223E96B0400D3CDD9 /* nose_algorithm.c */; };
 		D60C88D023E96B9700D3CDD9 /* Item1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C888123E96AE400D3CDD9 /* Item1CollectionViewCell.swift */; };
+		D66E68D123E9761800EDF83D /* MuzzidFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E68D023E9761800EDF83D /* MuzzidFramework.swift */; };
+		D66E68D223E9761800EDF83D /* MuzzidFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E68D023E9761800EDF83D /* MuzzidFramework.swift */; };
 		D6915F8C23E96A4E00E79EAB /* MuzzidFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D6915F8A23E96A4E00E79EAB /* MuzzidFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6915F9923E96A6C00E79EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6915F9823E96A6C00E79EAB /* AppDelegate.swift */; };
 		D6915F9D23E96A6C00E79EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6915F9C23E96A6C00E79EAB /* ViewController.swift */; };
@@ -86,6 +88,7 @@
 		D60C88BE23E96B0400D3CDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D60C88C023E96B0400D3CDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D60C88C223E96B0400D3CDD9 /* nose_algorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nose_algorithm.c; sourceTree = "<group>"; };
+		D66E68D023E9761800EDF83D /* MuzzidFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzzidFramework.swift; sourceTree = "<group>"; };
 		D6915F8723E96A4E00E79EAB /* MuzzidFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MuzzidFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6915F8A23E96A4E00E79EAB /* MuzzidFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuzzidFramework.h; sourceTree = "<group>"; };
 		D6915F8B23E96A4E00E79EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -235,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				D6915F8A23E96A4E00E79EAB /* MuzzidFramework.h */,
+				D66E68D023E9761800EDF83D /* MuzzidFramework.swift */,
 				D6915F8B23E96A4E00E79EAB /* Info.plist */,
 			);
 			path = MuzzidFramework;
@@ -465,6 +469,7 @@
 				D60C88B723E96AE400D3CDD9 /* ExtensionUIImage.swift in Sources */,
 				D60C88B323E96AE400D3CDD9 /* CVPixelBufferExtension.swift in Sources */,
 				D60C88A723E96AE400D3CDD9 /* Global.swift in Sources */,
+				D66E68D123E9761800EDF83D /* MuzzidFramework.swift in Sources */,
 				D60C88B523E96AE400D3CDD9 /* UIKit.swift in Sources */,
 				D60C88A923E96AE400D3CDD9 /* ModelDataHandle.swift in Sources */,
 				D60C88CC23E96B0400D3CDD9 /* nose_algorithm.c in Sources */,
@@ -487,6 +492,7 @@
 				D6915F9D23E96A6C00E79EAB /* ViewController.swift in Sources */,
 				D60C88B623E96AE400D3CDD9 /* UIKit.swift in Sources */,
 				D60C88B423E96AE400D3CDD9 /* CVPixelBufferExtension.swift in Sources */,
+				D66E68D223E9761800EDF83D /* MuzzidFramework.swift in Sources */,
 				D6915F9923E96A6C00E79EAB /* AppDelegate.swift in Sources */,
 				D60C889E23E96AE400D3CDD9 /* Item3CollectionViewCell.swift in Sources */,
 				D60C88AA23E96AE400D3CDD9 /* ModelDataHandle.swift in Sources */,
