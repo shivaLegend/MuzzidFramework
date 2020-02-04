@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MuzzidFramework"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -16,6 +16,6 @@ This CocoaPods library helps you perform calculation.
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/shivaLegend/MuzzidFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "MuzzidFrameworkExamples/**/*.{h,m,swift,storyboard}"
+  spec.source_files  = "MuzzidFramework/**/*.{h,m,swift,storyboard}"
   
 end

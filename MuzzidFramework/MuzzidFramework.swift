@@ -21,17 +21,10 @@ public class MuzzidFramework {
         return a - b
     }
     
-    public static func openStoryboard() {
-        let s = UIStoryboard (name: "Main", bundle: nil)
-                
-                let vc = s.instantiateInitialViewController()
-        if vc == nil {
-            print("nil")
-        } else {
-            print("not nil")
-        }
-//        vc!.modalPresentationStyle = .fullScreen //or .overFullScreen for transparency
-        
+    public static func openStoryboard() -> UIViewController{
+        let vc = MainViewController()
+        return vc
+    
     }
    
     

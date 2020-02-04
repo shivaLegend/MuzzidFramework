@@ -54,9 +54,10 @@
 		D60C88D023E96B9700D3CDD9 /* Item1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C888123E96AE400D3CDD9 /* Item1CollectionViewCell.swift */; };
 		D66E68D123E9761800EDF83D /* MuzzidFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E68D023E9761800EDF83D /* MuzzidFramework.swift */; };
 		D66E68D223E9761800EDF83D /* MuzzidFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E68D023E9761800EDF83D /* MuzzidFramework.swift */; };
+		D66E68D623E9808E00EDF83D /* MuzzidFrameworkExamples-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D60C88B923E96B0300D3CDD9 /* MuzzidFrameworkExamples-Bridging-Header.h */; };
+		D66E68D723E9809D00EDF83D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6915F9823E96A6C00E79EAB /* AppDelegate.swift */; };
 		D6915F8C23E96A4E00E79EAB /* MuzzidFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D6915F8A23E96A4E00E79EAB /* MuzzidFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6915F9923E96A6C00E79EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6915F9823E96A6C00E79EAB /* AppDelegate.swift */; };
-		D6915F9D23E96A6C00E79EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6915F9C23E96A6C00E79EAB /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,7 +95,6 @@
 		D6915F8B23E96A4E00E79EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6915F9623E96A6C00E79EAB /* MuzzidFrameworkExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuzzidFrameworkExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6915F9823E96A6C00E79EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6915F9C23E96A6C00E79EAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6915FA623E96A6E00E79EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF151337A928299F9FFD71A7 /* Pods-MuzzidFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzzidFramework.debug.xcconfig"; path = "Target Support Files/Pods-MuzzidFramework/Pods-MuzzidFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -259,7 +259,6 @@
 				D60C88BA23E96B0400D3CDD9 /* Assets.xcassets */,
 				D60C88C223E96B0400D3CDD9 /* nose_algorithm.c */,
 				D60C88BC23E96B0400D3CDD9 /* Storyboard */,
-				D6915F9C23E96A6C00E79EAB /* ViewController.swift */,
 				D6915FA623E96A6E00E79EAB /* Info.plist */,
 				D60C88B923E96B0300D3CDD9 /* MuzzidFrameworkExamples-Bridging-Header.h */,
 			);
@@ -273,6 +272,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66E68D623E9808E00EDF83D /* MuzzidFrameworkExamples-Bridging-Header.h in Headers */,
 				D6915F8C23E96A4E00E79EAB /* MuzzidFramework.h in Headers */,
 				D60C88C523E96B0400D3CDD9 /* AnimalNoseBiometric-Bridging-Header.h in Headers */,
 			);
@@ -468,6 +468,7 @@
 				D60C889723E96AE400D3CDD9 /* Item2CollectionViewCell.swift in Sources */,
 				D60C88B723E96AE400D3CDD9 /* ExtensionUIImage.swift in Sources */,
 				D60C88B323E96AE400D3CDD9 /* CVPixelBufferExtension.swift in Sources */,
+				D66E68D723E9809D00EDF83D /* AppDelegate.swift in Sources */,
 				D60C88A723E96AE400D3CDD9 /* Global.swift in Sources */,
 				D66E68D123E9761800EDF83D /* MuzzidFramework.swift in Sources */,
 				D60C88B523E96AE400D3CDD9 /* UIKit.swift in Sources */,
@@ -489,7 +490,6 @@
 				D60C88B823E96AE400D3CDD9 /* ExtensionUIImage.swift in Sources */,
 				D60C88CD23E96B0400D3CDD9 /* nose_algorithm.c in Sources */,
 				D60C88A423E96AE400D3CDD9 /* PixelStruct.swift in Sources */,
-				D6915F9D23E96A6C00E79EAB /* ViewController.swift in Sources */,
 				D60C88B623E96AE400D3CDD9 /* UIKit.swift in Sources */,
 				D60C88B423E96AE400D3CDD9 /* CVPixelBufferExtension.swift in Sources */,
 				D66E68D223E9761800EDF83D /* MuzzidFramework.swift in Sources */,
