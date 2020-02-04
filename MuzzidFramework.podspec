@@ -16,6 +16,6 @@ This CocoaPods library helps you perform calculation.
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/shivaLegend/MuzzidFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "MuzzidFramework/**/*.{h,m,swift}"
-
+  spec.source_files  = "MuzzidFrameworkExamples/**/*.{h,m,swift,storyboard}"
+  
 end
