@@ -20,6 +20,19 @@ public class MuzzidFramework {
     public static func sub(a: Int, b: Int) -> Int {
         return a - b
     }
+    
+    public static func openStoryboard() {
+        let s = UIStoryboard (name: "Main", bundle: nil)
+                
+                let vc = s.instantiateInitialViewController()
+        if vc == nil {
+            print("nil")
+        } else {
+            print("not nil")
+        }
+//        vc!.modalPresentationStyle = .fullScreen //or .overFullScreen for transparency
+        
+    }
    
     
 }
