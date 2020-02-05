@@ -21,9 +21,10 @@ public class MuzzidFramework {
         return a - b
     }
     
-    public static func openStoryboard() -> UIViewController{
-        let vc = MainViewController()
-        return vc
+    public static func openStoryboard() {
+//        let vc = MainViewController()
+//        return vc
+        
     
     }
    

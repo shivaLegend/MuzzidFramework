@@ -42,8 +42,6 @@
 		D60C88B623E96AE400D3CDD9 /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C889523E96AE400D3CDD9 /* UIKit.swift */; };
 		D60C88B723E96AE400D3CDD9 /* ExtensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C889623E96AE400D3CDD9 /* ExtensionUIImage.swift */; };
 		D60C88B823E96AE400D3CDD9 /* ExtensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C889623E96AE400D3CDD9 /* ExtensionUIImage.swift */; };
-		D60C88C323E96B0400D3CDD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60C88BA23E96B0400D3CDD9 /* Assets.xcassets */; };
-		D60C88C423E96B0400D3CDD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60C88BA23E96B0400D3CDD9 /* Assets.xcassets */; };
 		D60C88C523E96B0400D3CDD9 /* AnimalNoseBiometric-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D60C88BB23E96B0400D3CDD9 /* AnimalNoseBiometric-Bridging-Header.h */; };
 		D60C88C623E96B0400D3CDD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60C88BD23E96B0400D3CDD9 /* LaunchScreen.storyboard */; };
 		D60C88C723E96B0400D3CDD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60C88BD23E96B0400D3CDD9 /* LaunchScreen.storyboard */; };
@@ -84,18 +82,18 @@
 		D60C889523E96AE400D3CDD9 /* UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit.swift; sourceTree = "<group>"; };
 		D60C889623E96AE400D3CDD9 /* ExtensionUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIImage.swift; sourceTree = "<group>"; };
 		D60C88B923E96B0300D3CDD9 /* MuzzidFrameworkExamples-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuzzidFrameworkExamples-Bridging-Header.h"; sourceTree = "<group>"; };
-		D60C88BA23E96B0400D3CDD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Main Project/AnimalNoseBiometric/Assets.xcassets"; sourceTree = "<group>"; };
 		D60C88BB23E96B0400D3CDD9 /* AnimalNoseBiometric-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnimalNoseBiometric-Bridging-Header.h"; sourceTree = "<group>"; };
 		D60C88BE23E96B0400D3CDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D60C88C023E96B0400D3CDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D60C88C223E96B0400D3CDD9 /* nose_algorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nose_algorithm.c; sourceTree = "<group>"; };
 		D66E68D023E9761800EDF83D /* MuzzidFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzzidFramework.swift; sourceTree = "<group>"; };
+		D66E68D823E982AF00EDF83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6915F8723E96A4E00E79EAB /* MuzzidFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MuzzidFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6915F8A23E96A4E00E79EAB /* MuzzidFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuzzidFramework.h; sourceTree = "<group>"; };
 		D6915F8B23E96A4E00E79EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6915F9623E96A6C00E79EAB /* MuzzidFrameworkExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuzzidFrameworkExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6915F9823E96A6C00E79EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6915FA623E96A6E00E79EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6915FA623E96A6E00E79EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MuzzidFrameworkExamples/Info.plist; sourceTree = SOURCE_ROOT; };
 		EF151337A928299F9FFD71A7 /* Pods-MuzzidFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuzzidFramework.debug.xcconfig"; path = "Target Support Files/Pods-MuzzidFramework/Pods-MuzzidFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -208,8 +206,6 @@
 		D60C88BC23E96B0400D3CDD9 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				D60C88BD23E96B0400D3CDD9 /* LaunchScreen.storyboard */,
-				D60C88BF23E96B0400D3CDD9 /* Main.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -218,7 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				D6915F8923E96A4E00E79EAB /* MuzzidFramework */,
-				D6915F9723E96A6C00E79EAB /* MuzzidFrameworkExamples */,
 				D6915F8823E96A4E00E79EAB /* Products */,
 				650F7BAC8E72E4FB9F12C803 /* Pods */,
 				B55126E57BC68B899D2C5FC9 /* Frameworks */,
@@ -240,13 +235,6 @@
 				D6915F8A23E96A4E00E79EAB /* MuzzidFramework.h */,
 				D66E68D023E9761800EDF83D /* MuzzidFramework.swift */,
 				D6915F8B23E96A4E00E79EAB /* Info.plist */,
-			);
-			path = MuzzidFramework;
-			sourceTree = "<group>";
-		};
-		D6915F9723E96A6C00E79EAB /* MuzzidFrameworkExamples */ = {
-			isa = PBXGroup;
-			children = (
 				D60C888823E96AE400D3CDD9 /* Controllers */,
 				D60C889323E96AE400D3CDD9 /* Extension */,
 				D60C888A23E96AE400D3CDD9 /* Global */,
@@ -256,13 +244,15 @@
 				D60C887F23E96AE400D3CDD9 /* Views */,
 				D6915F9823E96A6C00E79EAB /* AppDelegate.swift */,
 				D60C88BB23E96B0400D3CDD9 /* AnimalNoseBiometric-Bridging-Header.h */,
-				D60C88BA23E96B0400D3CDD9 /* Assets.xcassets */,
+				D66E68D823E982AF00EDF83D /* Assets.xcassets */,
 				D60C88C223E96B0400D3CDD9 /* nose_algorithm.c */,
 				D60C88BC23E96B0400D3CDD9 /* Storyboard */,
+				D60C88BD23E96B0400D3CDD9 /* LaunchScreen.storyboard */,
+				D60C88BF23E96B0400D3CDD9 /* Main.storyboard */,
 				D6915FA623E96A6E00E79EAB /* Info.plist */,
 				D60C88B923E96B0300D3CDD9 /* MuzzidFrameworkExamples-Bridging-Header.h */,
 			);
-			path = MuzzidFrameworkExamples;
+			path = MuzzidFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,7 +361,6 @@
 				D60C88B123E96AE400D3CDD9 /* nostril_graph.tflite in Resources */,
 				D60C88AB23E96AE400D3CDD9 /* philtrum_graph.tflite in Resources */,
 				D60C889F23E96AE400D3CDD9 /* Item1CollectionViewCell.xib in Resources */,
-				D60C88C323E96B0400D3CDD9 /* Assets.xcassets in Resources */,
 				D60C88A123E96AE400D3CDD9 /* Item3CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,7 +371,6 @@
 			files = (
 				D60C889C23E96AE400D3CDD9 /* Item2CollectionViewCell.xib in Resources */,
 				D60C88B023E96AE400D3CDD9 /* labels.txt in Resources */,
-				D60C88C423E96B0400D3CDD9 /* Assets.xcassets in Resources */,
 				D60C88B223E96AE400D3CDD9 /* nostril_graph.tflite in Resources */,
 				D60C88AC23E96AE400D3CDD9 /* philtrum_graph.tflite in Resources */,
 				D60C88C923E96B0400D3CDD9 /* Main.storyboard in Resources */,
