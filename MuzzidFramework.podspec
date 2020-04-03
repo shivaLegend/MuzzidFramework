@@ -18,7 +18,7 @@ This CocoaPods library helps you perform calculation.
   spec.source        = { :git => "https://github.com/shivaLegend/MuzzidFramework.git", :tag => "#{spec.version}" }
   
   spec.source_files  = "MuzzidFramework/**/*.{h,m,swift}"
-  s.resources = "MuzzidFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resources = "MuzzidFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   
   spec.static_framework = true
   spec.dependency 'TensorFlowLiteSwift'
